@@ -1,10 +1,6 @@
-GeoQuiz2.0.0 
-GeoQuiz Ch2.Challenge0.version0
+GeoQuiz2.0.1
+GeoQuiz Ch2.Challenge0.version1
 Android Studio
 Java
 Use of MVC to add functionality and expansion of true or false application guided by The Big Nerd Ranch 3e.
 Expansion of questions with added next button.
-
-Strings Altered
-
-Push request Master Branch
