@@ -3,7 +3,9 @@ GeoQuiz Ch2.Challenge0.version1
 Android Studio
 Java
 
-Use of MVC to add functionality and expansion of true or false application guided by The Big Nerd Ranch 3e.
+Chapter: Add more pages to true and false application
 
-Expansion of questions
-Added next button.,]
+Use of MVC to add functionality and expansion of reusable code
+
+Additional questions geared for additional pages
+Added next button to change questions.
