@@ -1,9 +1,18 @@
-GeoQuiz2.0.1
-GeoQuiz Ch2.Challenge0.version1
+GeoQuiz1.0.1
+GeoQuiz Ch1.Challenge1.version1
 Android Studio
 Java
 
-Use of MVC to add functionality and expansion of true or false application guided by The Big Nerd Ranch 3e.
+Chapter One: Create first page of true or false application.
+Install android studio.
+Create project with empty layout.
+Create buttons true and false.
+Create string.xml.
+Create QuizActivity.java
+Create activity_quiz.xml
+Setup emmulation for android phone nexus.
 
-Expansion of questions
-Added next button.
+
+Challenge One:
+Implement setGravity() method after instantiation of aToast object from Toast class inorder to use the non-static method setGravity();
+
