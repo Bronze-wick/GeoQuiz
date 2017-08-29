@@ -24,24 +24,19 @@ public class QuizActivity extends AppCompatActivity {
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast aToast = null;
-                aToast = Toast.makeText(QuizActivity.this,
+
+                Toast.makeText(QuizActivity.this,
                         R.string.correct_toast,
-                        Toast.LENGTH_SHORT);
-                aToast.setGravity(Gravity.TOP,0,250);
-                aToast.show();
+                        Toast.LENGTH_SHORT).show();
             }
         });
 
         mFalseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast aToast = null;
-                       aToast = Toast.makeText(QuizActivity.this,
+                Toast.makeText(QuizActivity.this,
                                R.string.incorrect_toast,
-                               Toast.LENGTH_SHORT);
-                aToast.setGravity(Gravity.TOP,0,250);
-                aToast.show();
+                               Toast.LENGTH_SHORT).show();
             }
         });
     }
