@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-//comment
+
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,15 +8,6 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical" >
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logoalwayssunnydetailing"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="30dp"
-        />
 
     <TextView
         android:id="@+id/question_text_view"
