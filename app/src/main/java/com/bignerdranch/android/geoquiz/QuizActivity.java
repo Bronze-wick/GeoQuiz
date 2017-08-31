@@ -40,13 +40,7 @@ public class QuizActivity extends AppCompatActivity {
         mTrueButton = (Button) findViewById(R.id.true_button);
         mFalseButton = (Button) findViewById(R.id.false_button);
         mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
-
-        //declare question. initialize to array mQuestionBank
-        //use method getTextResId(), use variable mCurrentIndex which was
-        //already declared and initialized to 0.
-        int question = mQuestionBank[mCurrentIndex].getTextResId();
-        mQuestionTextView.setText(question);
-
+        mNextButton = (Button) findViewById(R.id.next_button);
 
         //setting listeners and commands when user selects true button
         mTrueButton.setOnClickListener(new View.OnClickListener() {
@@ -73,5 +67,19 @@ public class QuizActivity extends AppCompatActivity {
                 aToast.show();
             }
         });
+
+        mNextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
+                updateQuestion();
+            }
+        });
+
+        updateQuestion();
+    }
+    private void updateQuestion() {
+        int question = mQuestionBank[mCurrentIndex].getTextResId();
+        mQuestionTextView.setText(question);
     }
 }
