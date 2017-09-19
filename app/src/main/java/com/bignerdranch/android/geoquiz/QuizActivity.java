@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-//GeoQuiz2.1.0
+//GeoQuiz2.1.0 Pushed to Master 09/19/17
 
 public class QuizActivity extends AppCompatActivity {
 
