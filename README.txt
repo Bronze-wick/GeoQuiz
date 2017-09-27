@@ -1,11 +1,11 @@
-GeoQuiz2.0.1
-GeoQuiz Ch2.Challenge0.version1
-Android Studio
-Java
+08/31/2017 
+James Pata
 
-Chapter: Add more pages to true and false application
+Java in android studio.
 
-Use of MVC to add functionality and expansion of reusable code
+The development life cycle of GeoQuiz. A true or false mobile application. 
 
-Additional questions geared for additional pages
-Added next button to change questions.
+Master is current.
+Branches reserve versions of application. For example, GeoQuiz 2.2.6.0 would translate as chapter2.challenge2.version6.customtheme0.
+
+Text book: Android Programming: The Big Nerd Ranch Guide
