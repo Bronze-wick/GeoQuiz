@@ -2,6 +2,7 @@
 James Pata
 
 Java in android studio.
+Minimum SDK KitKat 4.4 API 19
 
 The development life cycle of GeoQuiz. A true or false mobile application. 
 
